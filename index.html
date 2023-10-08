@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+     </style>
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,700&display=swap');
+     </style>
+        
+</head>
+<body>
+    <script src="process.js" defer></script>
+    <div class="content">
+        <div class="left-side">
+            <div class="logo">
+                <div class="app-name"><img src="./butterfly.png" alt="butterfly" class="butterfly"
+                    height="100px">Lantrn</div>
+                <div class="credit"><a href="https://www.freepik.com/free-photo/vietnam-lantern-market_4690234.htm#query=lanterns&position=8&from_view=search&track=sph">Image by jcomp</a> on Freepik</div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="description-text">
+                This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!<br>
+                Sign up <i>now</i> to get started.<br><br>
+                You <i>know</i> you want to.
+            </div>
+            <form action="#">
+                <div class="form-header">
+                    <p>Let's do this!</p>
+                </div>
+                <div class="inputs">
+                    <div class="input-container">
+                        <label for="fname">FIRST NAME*</label>
+                        <input type="text" id="fname" name="fname" placeholder="John" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="lname">LAST NAME</label>
+                        <input type="lame" id="lname" name="lname" placeholder="Smith">
+                    </div>
+                    <div class="input-container">
+                        <label for="email">EMAIL*</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                    </div>
+                    <div class="input-container">
+                        <label for="password">PASSWORD*</label>
+                        <input type="password" id="password" name="password" placeholder="password" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="confirm">CONFIRM PASSWORD*</label>
+                        <input type="password" id="confirm" name="confirm" placeholder="password" required>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+            <div class="log-in">
+                Already have an account? <a href="index.html">Log in</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
